@@ -1,0 +1,37 @@
+[core]
+	gitproxy = "/usr/bin/git-proxy" for kernel.org
+	gitproxy = "/usr/bin/git-proxy" for omapzoom.org
+	gitproxy = "/usr/bin/git-proxy" for git.omapzoom.org
+	gitproxy = "/usr/bin/git-proxy" for review.omapzoom.org
+	gitproxy = "/usr/bin/git-proxy" for gitorious.org
+	gitproxy = "/usr/bin/git-proxy" for github.com
+	gitproxy = "/usr/bin/git-proxy" for busybox.net
+	gitproxy = "/usr/bin/git-proxy" for ext.ti.com
+	gitproxy = "/usr/bin/git-proxy" for qemu.org
+	gitproxy = "/usr/bin/git-proxy" for android.git.kernel.org
+	gitproxy = "/usr/bin/git-proxy" for buildroot.net
+	gitproxy = none for dal.design.ti.com
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[diff]
+  external = git_diff_wrapper
+[pager]
+  diff =
+
+[user]
+	name = Subramaniam C.A
+	email = subramaniam.ca@ti.com
