@@ -10,7 +10,7 @@
 	gitproxy = "/usr/bin/git-proxy" for qemu.org
 	gitproxy = "/usr/bin/git-proxy" for android.git.kernel.org
 	gitproxy = "/usr/bin/git-proxy" for buildroot.net
-	gitproxy = none for dal.design.ti.com
+	
 [color]
 	ui = auto
 [color "branch"]
@@ -33,5 +33,5 @@
   diff =
 
 [user]
-	name = Subramaniam C.A
-	email = subramaniam.ca@ti.com
+	name = Subramaniam Chanderashekarapuram
+	email = c.a.subramaniam@gmail.com
