@@ -4,7 +4,11 @@ syntax on
 "set tabstop=4
 set incsearch
 set hlsearch
-colorscheme desert
+
+
+syntax enable
+set background=dark
+colorscheme solarized
 
 :highlight ExtraWhitespace ctermbg=red guibg=red
 " Show trailing whitepace and spaces before a tab:
