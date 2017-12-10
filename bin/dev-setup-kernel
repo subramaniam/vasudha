@@ -1,0 +1,6 @@
+
+source ./dev-setup-android-tc
+
+cd ${DEV_HOME_DIR}/git/hdandy/kernel/android-4.4/
+
+bash 

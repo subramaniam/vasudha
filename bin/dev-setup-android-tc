@@ -1,0 +1,6 @@
+export DEV_HOME_DIR="${DEV_HOME_DIR:-/media/subbu/home1}"
+export TC_DIR=${DEV_HOME_DIR}
+
+#setup the build env
+export ARCH=arm;export CROSS_COMPILE=${TC_DIR}/tc/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+

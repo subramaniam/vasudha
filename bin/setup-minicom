@@ -1,0 +1,3 @@
+
+pushd ${DEV_HOME_DIR}/git/hdandy/logs/
+minicom -D /dev/ttyUSB0

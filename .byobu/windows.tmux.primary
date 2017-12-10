@@ -1,0 +1,5 @@
+new-session 'dev' ;
+new-window  -n scratchpad;
+new-window  -n minicom setup-minicom;
+new-window  -n u-boot dev-setup-uboot
+
